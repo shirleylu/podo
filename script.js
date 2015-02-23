@@ -9,7 +9,7 @@ $( document ).ready(function() {
 function pomogo () {
   var pomogoal = $('#goal').val();
   $('#goal').remove();
-  $('#pomo').html("<div id='pomogoal'>"+pomogoal+"</div><div id='pomoct'>25:00</div><button id='done' onclick='pomodonearly()'>done early!</button>");
+  $('#pomo').html("<div id='pomogoal'>"+pomogoal+"</div><div id='pomoct'>25:00</div><button id='done' onclick='$(this).remove(); pomodonearly();'>done early!</button>");
   pomocount();
 }
 
