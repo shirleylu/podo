@@ -1,0 +1,80 @@
+body {
+  margin:0;
+  padding:0;
+  width: 800px;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #ff3652;
+  font-size: 64px;
+  text-align: center;
+}
+
+#pomo {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 600px;
+  border: 1px solid #610010;
+  background-color: #fffdfe;
+}
+
+input[type="text"] {
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #610010;
+}
+
+button {
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  color: #333333;
+  border: 1px solid #610010;
+  border-radius: 0px;
+  background-color: white;
+}
+
+#pomogoal {
+  font-size: 32px;
+  text-align: center;
+}
+
+#pomoct {
+  font-size: 48px;
+  text-align: center;
+  color: #610010;
+}
+
+#yn {
+  border: 1px solid #610010;
+  height: 22px;
+  width: 121px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fin {
+  float: left;
+  width: 60px;
+  height: 22px;
+}
+
+#yes {
+  border-right: 1px solid #610010;
+}
+
+.seed {
+  width: 15px;
+}
+
+.date {
+  font-size: 8px;
+}
