@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>POMOGRANATE</h1>
+    <h1><img src='media/logo.png' height='48px'/> POMOGRANATE</h1>
+    <p id='what'><a href="#" onclick="$('#about').show(); $('#what').hide();">What is pomogranate?</a></p>
+    <div id='about'>
+      <p>
+        Pomogranate is a time management app based on the pomodoro technique. The technique breaks down work into 30 minute segments - 25 minutes of work and 5 minutes of break.
+      </p>
+      <a href="#" onclick="$('#about').hide(); $('#what').show();">hide</a>
+    </div>
     <div id="pomo">
     </div>
     

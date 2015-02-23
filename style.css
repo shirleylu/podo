@@ -1,7 +1,7 @@
 body {
-  margin:0;
-  padding:0;
-  width: 800px;
+  margin: 0;
+  padding: 0;
+  width: 600px;
   text-align: center; 
   margin-left: auto;
   margin-right: auto;
@@ -12,13 +12,34 @@ h1 {
   color: #ff3652;
   font-size: 64px;
   text-align: center;
+  margin: 0px;
+}
+
+a:link {color: #ff3652;}
+a:visited {color: #ff3652;}
+a:hover {color: #ff3652;}
+a:active {color: #ff3652;}
+
+#what {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+#about {
+  display: none;
+  font-size: 12px;
+  margin-bottom: 40px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #pomo {
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
-  width: 600px;
+  width: 538px;
   border: 1px solid #610010;
   background-color: #fffdfe;
 }
@@ -41,6 +62,8 @@ button {
   border-radius: 0px;
   background-color: white;
 }
+
+button:disabled {color: #cccccc;}
 
 #pomogoal {
   font-size: 32px;
